@@ -17,6 +17,5 @@ fi
 git init
 git add .
 git commit -m "chore: bootstrap frontend (React + Vite)"
-# Crea repo privado (cámbialo a public si prefieres)
 gh repo create "$REPO_NAME" --private --source=. --push
 echo "Repositorio creado y código subido a GitHub ✅"
